@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.7em;
+}
+h1 h2 h3 {
+    padding-bottom: 20px;
+}
+p{
+   margin: 10px 0;
+}
+
+/*////////////////////// navbar/////////////////////////////*/
+#navbar{
+    background-color: rgb(22, 22, 24);
+    overflow: auto;
+}
+#navbar h1{
+    float: left;
+    padding: 20px 5px 20px 5px;
+   
+}
+#navbar ul{
+    float: right;
+    list-style: none;
+}
+#navbar li{
+    float: left;
+   
+}
+#navbar ul li a{
+    display: block;
+    text-align: center;
+    padding: 20px;
+}
+
+#navbar ul li a:hover , .current{
+color: black;
+background-color: lightgray;
+}
+.container{
+    width: 1100px;
+    margin: auto;  
+    padding: 0 20px;
+    overflow: auto;
+}
+/*.......................................showcase.................................................................*/
+#showcase{
+    background: url(../images/showcase.jpg) no-repeat center center/cover;
+    height: 700px;
+   
+}
+#showcase .showcase-content{
+    color: white;
+    text-align: center;
+    padding-top: 160px;
+}
+ #showcase .showcase-content h1 {
+font-size:60px ;
+line-height: 1.2em;
+
+ }
+ .wel{
+    color:#ad8c6e ;
+ }
+.lead{
+    font-size: 20px;
+}
+#showcase .showcase-content p{
+padding-bottom: 20px;
+line-height: 1.7em;
+
+}
+.btn{
+display: inline-block;
+font-size: 18px;
+color: black;
+cursor: pointer;
+border: none;
+background-color: #ad8c6e;    
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+  
+}
+.btn-lite{
+    background-color:#ad8c6e;
+    color: white;
+}
+
+.logo:hover{
+    background-color: #ad8c6e;
+}/*''''''''''''''''''''''''''''''''''''''''''''''''''home-info'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''*/
+#home-info{
+    height: 300px;
+}
+#home-info .info-img{
+    float: left;
+    width: 30%;
+    background: url(../images/scr.jpg) no-repeat ; 
+    min-height: 100%;
+}
+#home-info .info-content{
+    float: right;
+    width: 65%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+.bg-dark{
+    background-color:#333;
+    color: white;
+}
+.text-primary{
+    background: white;
+    color:#333;
+}
+.text-primary{
+    color:#333 ;
+    background-color: #ad8c6e;
+
+}
+.box{
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+    
+}
+.box i{
+    margin-bottom: 10px;
+}
+#main-footer{
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+.class{
+    clear: both;
+}
+/*---------------------------------about-------------------------------------------------*/
+.info-right{
+    float: right;
+    width: 40%;
+    min-height: 100%;
+}
+.info-right img{
+    display: block;
+   padding-bottom: 50px;
+ 
+    width: 50%;
+}
+.py-1{
+padding: 40px 0;
+}
+#test{
+    height: 600px;
+    background: url(../images/test-bg.jpg) no-repeat center center/cover;
+    padding-top: 100px;
+}
+#test .testimonial img{
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+#test .testimonial{
+    margin: 40px;
+    padding: 10px 5px 30px 5px;
+    border-radius: 5px;
+}
+#test .heading{
+    padding-bottom: 30px;
+text-align: center;
+color: white; 
+}
